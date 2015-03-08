@@ -43295,3 +43295,96 @@ Started GET "/assets/userfriendships-e986f9631ac9daafb09ad200f91b7352.css?body=1
 
 
 Started GET "/assets/parsley-7f39b5bafe42db534ec9c25ba2e11da0.css?body=1" for ::1 at 2015-03-08 15:57:13 -0700
+  [1m[36mUser Load (2.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+
+
+Started GET "/users" for ::1 at 2015-03-08 16:51:34 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (25.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (24.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 90]]
+  Rendered users/index.html.erb within layouts/application (86.0ms)
+Completed 200 OK in 349ms (Views: 280.6ms | ActiveRecord: 56.1ms)
+
+
+Started GET "/assets/sessions-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 16:51:35 -0700
+
+
+Started GET "/assets/jquery-9d751bd21c4864f65bfbd8f54a1de10c.js?body=1" for ::1 at 2015-03-08 16:51:35 -0700
+
+
+Started GET "/assets/userfriendships-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 16:51:35 -0700
+
+
+Started GET "/assets/parsley-7f39b5bafe42db534ec9c25ba2e11da0.css?body=1" for ::1 at 2015-03-08 16:51:35 -0700
+
+
+Started GET "/assets/users-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 16:51:35 -0700
+
+
+Started GET "/assets/jquery_ujs-b6180cd5656412d5eba8ffc0fdd2bf4a.js?body=1" for ::1 at 2015-03-08 16:51:35 -0700
+
+
+Started GET "/assets/parsley-b019c1a563f900f24f42eec3d600c242.js?body=1" for ::1 at 2015-03-08 16:51:35 -0700
+
+
+Started GET "/assets/angular-dd9b868f194cd3c412cf05669f220b2e.js?body=1" for ::1 at 2015-03-08 16:51:35 -0700
+
+
+Started GET "/assets/angular-resource-2f42a539c64958820ae3087993bb2e37.js?body=1" for ::1 at 2015-03-08 16:51:35 -0700
+
+
+Started GET "/assets/angular/app-14ebf7d85cb521dabe9cb8036326ac2f.js?body=1" for ::1 at 2015-03-08 16:51:35 -0700
+
+
+Started GET "/assets/angular/search-2bacd47b0b58f3201fca7ec05baf43b8.js?body=1" for ::1 at 2015-03-08 16:51:35 -0700
+
+
+Started GET "/assets/angular/users-d55de7b5f9c898897556825c88bf6552.js?body=1" for ::1 at 2015-03-08 16:51:35 -0700
+
+
+Started GET "/assets/angular/usersController-e986f9631ac9daafb09ad200f91b7352.js?body=1" for ::1 at 2015-03-08 16:51:35 -0700
+
+
+Started GET "/assets/sessions-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 16:51:35 -0700
+
+
+Started GET "/assets/userfriendships-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 16:51:35 -0700
+
+
+Started GET "/assets/users-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 16:51:35 -0700
+
+
+Started GET "/assets/application-19dc9fae6f1f869ebbebbe92bcd6902a.js?body=1" for ::1 at 2015-03-08 16:51:35 -0700
+
+
+Started GET "/api/users" for ::1 at 2015-03-08 16:51:35 -0700
+Processing by UsersController#index as JSON
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 90]]
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 11ms (Views: 4.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/users/new" for ::1 at 2015-03-08 16:51:40 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (26.2ms)
+Completed 200 OK in 148ms (Views: 147.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for ::1 at 2015-03-08 16:51:40 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 101ms (Views: 100.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for ::1 at 2015-03-08 16:53:44 -0700
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 90]]
+  Rendered users/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 160ms (Views: 159.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/api/users" for ::1 at 2015-03-08 16:53:45 -0700
+Processing by UsersController#index as JSON
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 90]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 10ms (Views: 5.2ms | ActiveRecord: 0.8ms)
