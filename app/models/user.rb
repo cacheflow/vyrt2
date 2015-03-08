@@ -2,8 +2,8 @@ require "bcrypt"
 class User < ActiveRecord::Base
 
  has_attached_file(:avatar,
-                  :default_url => 'default.jpg',
-                  :styles => {:medium => "300x300>"})
+                  :default_url => ActionController::Base.helpers.asset_path("default.jpg"),
+                  :styles => {:normal => "100x100>"})
  validates_attachment_content_type :avatar, :content_type => ["image/jpg", "image/jpeg", "image/png", "image/gif"]
 
   def password
