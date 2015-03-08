@@ -1,0 +1,10 @@
+<%=form_for @user do |u| %> 
+  <%=u.text_field :name, placeholder: 'name' %> 
+  <%=u.email_field :email, placeholder: 'email' %> 
+  <%=u.text_field :age, placeholder: 'age' %> 
+  <%=u.text_field :location, placeholder: 'location' %> 
+  <%=u.hidden_field :updated_at %> 
+  <%=u.file_field :avatar %>
+  <%=u.submit "Create User" %>  
+<% end %> 
+

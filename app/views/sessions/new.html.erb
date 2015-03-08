@@ -1,0 +1,19 @@
+<div class = "container">
+    <div class = "col-md-4"></div>
+    <div class = "col-md-4">
+        <h1>Log In</h1>
+        <%= form_for :session, :url => sessions_path do |f| %>
+            <span>Email: </span><%= f.text_field :email, 
+               required: true, 'data-parsley-type' => 'email',
+              'data-parsley-trigger' => 'blur', 
+              class: "form-control" %>
+            <span>Password: </span><%= f.password_field :password, 
+            required: true,
+              'data-parsley-trigger' => 'blur', 
+             class: "form-control" %>
+            <%= f.submit "Log in", class: "btn btn-default" %>
+        <% end %>
+        <div class = "clear"></div>
+    </div>
+    <div class = "col-md-4"></div>
+</div>
