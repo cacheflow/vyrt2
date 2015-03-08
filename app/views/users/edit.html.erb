@@ -1,4 +1,4 @@
-<%=form_for edit_user_path do |u| %> 
+<%=form_for @user do |u| %> 
   <%=u.text_field :name, placeholder: 'name' %> 
   <%=u.email_field :email, placeholder: 'email' %> 
   <%=u.text_field :age, placeholder: 'age' %> 
