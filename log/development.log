@@ -37853,3 +37853,486 @@ Processing by UsersController#index as JSON
   [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 70]]
   [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users"[0m
 Completed 200 OK in 22ms (Views: 10.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/users" for ::1 at 2015-03-08 13:22:23 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+SyntaxError (/Users/lexisalexander/Documents/vyrt2/app/models/user.rb:8: syntax error, unexpected tIDENTIFIER, expecting ')'
+...lidates_attachment_content_type :avatar, :content_type => ["...
+...                               ^):
+  app/models/user.rb:8: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/controllers/users_controller.rb:9:in `index'
+
+
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.9ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (11.0ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (37.7ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.4ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.5ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.5ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.4ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (21.7ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.5ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.4ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (49.8ms)
+
+
+Started GET "/users" for ::1 at 2015-03-08 13:22:26 -0700
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+SyntaxError (/Users/lexisalexander/Documents/vyrt2/app/models/user.rb:8: syntax error, unexpected tIDENTIFIER, expecting ')'
+...lidates_attachment_content_type :avatar, :content_type => ["...
+...                               ^):
+  app/models/user.rb:8: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/controllers/users_controller.rb:9:in `index'
+
+
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.2ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.3ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.3ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.5ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (13.8ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.4ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.5ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (34.5ms)
+
+
+Started GET "/users" for ::1 at 2015-03-08 13:23:01 -0700
+Processing by UsersController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+SyntaxError (/Users/lexisalexander/Documents/vyrt2/app/models/user.rb:9: syntax error, unexpected tIDENTIFIER, expecting ')'
+...lidates_attachment_content_type :avatar, :content_type => ["...
+...                               ^):
+  app/models/user.rb:9: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/controllers/users_controller.rb:9:in `index'
+
+
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.7ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.4ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.5ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.6ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (20.5ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.5ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.5ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (41.0ms)
+
+
+Started GET "/users" for ::1 at 2015-03-08 13:23:11 -0700
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 70]]
+  Rendered users/index.html.erb within layouts/application (31.1ms)
+Completed 200 OK in 298ms (Views: 278.3ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/sessions-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 13:23:11 -0700
+
+
+Started GET "/assets/userfriendships-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 13:23:11 -0700
+
+
+Started GET "/assets/parsley-7f39b5bafe42db534ec9c25ba2e11da0.css?body=1" for ::1 at 2015-03-08 13:23:11 -0700
+
+
+Started GET "/assets/jquery-9d751bd21c4864f65bfbd8f54a1de10c.js?body=1" for ::1 at 2015-03-08 13:23:11 -0700
+
+
+Started GET "/assets/users-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 13:23:11 -0700
+
+
+Started GET "/assets/jquery_ujs-b6180cd5656412d5eba8ffc0fdd2bf4a.js?body=1" for ::1 at 2015-03-08 13:23:11 -0700
+
+
+Started GET "/assets/parsley-b019c1a563f900f24f42eec3d600c242.js?body=1" for ::1 at 2015-03-08 13:23:11 -0700
+
+
+Started GET "/assets/angular-dd9b868f194cd3c412cf05669f220b2e.js?body=1" for ::1 at 2015-03-08 13:23:11 -0700
+
+
+Started GET "/assets/angular-resource-2f42a539c64958820ae3087993bb2e37.js?body=1" for ::1 at 2015-03-08 13:23:11 -0700
+
+
+Started GET "/assets/angular/app-14ebf7d85cb521dabe9cb8036326ac2f.js?body=1" for ::1 at 2015-03-08 13:23:11 -0700
+
+
+Started GET "/assets/angular/search-2bacd47b0b58f3201fca7ec05baf43b8.js?body=1" for ::1 at 2015-03-08 13:23:11 -0700
+
+
+Started GET "/assets/angular/users-d55de7b5f9c898897556825c88bf6552.js?body=1" for ::1 at 2015-03-08 13:23:11 -0700
+
+
+Started GET "/assets/angular/usersController-e986f9631ac9daafb09ad200f91b7352.js?body=1" for ::1 at 2015-03-08 13:23:11 -0700
+
+
+Started GET "/assets/sessions-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 13:23:11 -0700
+
+
+Started GET "/assets/userfriendships-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 13:23:11 -0700
+
+
+Started GET "/assets/users-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 13:23:11 -0700
+
+
+Started GET "/api/users" for ::1 at 2015-03-08 13:23:11 -0700
+Processing by UsersController#index as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 70]]
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 12ms (Views: 8.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/users/new" for ::1 at 2015-03-08 13:23:18 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 167ms (Views: 166.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 13:23:18 -0700
+
+
+Started GET "/assets/userfriendships-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 13:23:18 -0700
+
+
+Started GET "/assets/jquery_ujs-b6180cd5656412d5eba8ffc0fdd2bf4a.js?body=1" for ::1 at 2015-03-08 13:23:18 -0700
+
+
+Started GET "/assets/jquery-9d751bd21c4864f65bfbd8f54a1de10c.js?body=1" for ::1 at 2015-03-08 13:23:18 -0700
+
+
+Started GET "/assets/users-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 13:23:18 -0700
+
+
+Started GET "/assets/parsley-7f39b5bafe42db534ec9c25ba2e11da0.css?body=1" for ::1 at 2015-03-08 13:23:18 -0700
+
+
+Started GET "/assets/parsley-b019c1a563f900f24f42eec3d600c242.js?body=1" for ::1 at 2015-03-08 13:23:18 -0700
+
+
+Started GET "/assets/angular-dd9b868f194cd3c412cf05669f220b2e.js?body=1" for ::1 at 2015-03-08 13:23:18 -0700
+
+
+Started GET "/assets/angular-resource-2f42a539c64958820ae3087993bb2e37.js?body=1" for ::1 at 2015-03-08 13:23:18 -0700
+
+
+Started GET "/assets/angular/app-14ebf7d85cb521dabe9cb8036326ac2f.js?body=1" for ::1 at 2015-03-08 13:23:18 -0700
+
+
+Started GET "/assets/angular/search-2bacd47b0b58f3201fca7ec05baf43b8.js?body=1" for ::1 at 2015-03-08 13:23:18 -0700
+
+
+Started GET "/assets/angular/users-d55de7b5f9c898897556825c88bf6552.js?body=1" for ::1 at 2015-03-08 13:23:18 -0700
+
+
+Started GET "/assets/angular/usersController-e986f9631ac9daafb09ad200f91b7352.js?body=1" for ::1 at 2015-03-08 13:23:18 -0700
+
+
+Started GET "/assets/sessions-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 13:23:18 -0700
+
+
+Started GET "/assets/userfriendships-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 13:23:18 -0700
+
+
+Started GET "/assets/users-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 13:23:18 -0700
+
+
+Started POST "/users" for ::1 at 2015-03-08 13:23:47 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tnSduvSnUl8segzm70YoxnKlrKwt6SI23IP6Nbmq7c/bO3daHxhluEZ6YaaNYNO1kPi8IVWGjXqJ04aQD+M8GA==", "user"=>{"name"=>"james", "email"=>"james@james.com", "age"=>"122", "location"=>"newport", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fa3042b7e20 @tempfile=#<Tempfile:/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/RackMultipart20150308-37095-kvaerb.jpg>, @original_filename="rave then vs now .jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[avatar]\"; filename=\"rave then vs now .jpg\"\r\nContent-Type: image/jpeg\r\n">, "password"=>"[FILTERED]", "created_at"=>""}, "commit"=>"Create User"}
+Unpermitted parameter: created_at
+Command :: file -b --mime '/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/8dc2f4c3ceba7afb40ef628b311b55bf20150308-37095-1ocqk94.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/3a110b13015cd6adec70c18afeeccf8f20150308-37095-jmdumv.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/3a110b13015cd6adec70c18afeeccf8f20150308-37095-jmdumv.jpg[0]'
+Command :: convert '/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/3a110b13015cd6adec70c18afeeccf8f20150308-37095-jmdumv.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/3a110b13015cd6adec70c18afeeccf8f20150308-37095-jmdumv20150308-37095-1ddjpmt'
+Command :: file -b --mime '/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/3a110b13015cd6adec70c18afeeccf8f20150308-37095-jmdumv20150308-37095-1ddjpmt'
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+Command :: file -b --mime '/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/8dc2f4c3ceba7afb40ef628b311b55bf20150308-37095-mvxx88.jpg'
+  [1m[35mSQL (5.7ms)[0m  INSERT INTO "users" ("name", "email", "age", "location", "avatar_file_name", "avatar_content_type", "avatar_file_size", "avatar_updated_at", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["name", "james"], ["email", "james@james.com"], ["age", 122], ["location", "newport"], ["avatar_file_name", "rave_then_vs_now_.jpg"], ["avatar_content_type", "image/jpeg"], ["avatar_file_size", 288661], ["avatar_updated_at", "2015-03-08 13:23:48.003310"], ["password_digest", "$2a$10$APK.KVpeOa4YkgkLPIGAAOr7NMbvj16bDBpNxwxCEIZXN1kik50mq"], ["created_at", "2015-03-08 13:23:48.280110"], ["updated_at", "2015-03-08 13:23:48.280110"]]
+[paperclip] saving /users/avatars/000/000/073/original/rave_then_vs_now_.jpg
+  [1m[36m (1.6ms)[0m  [1mROLLBACK[0m
+Completed 500 Internal Server Error in 301ms
+
+NameError (uninitialized constant Paperclip::Storage::S3::AWS):
+  app/controllers/users_controller.rb:17:in `create'
+
+
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.0ms)
+Cannot render console with content type multipart/form-dataAllowed content types: [#<Mime::Type:0x007fa303f83bf0 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007fa303f838a8 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007fa303f7a168 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started GET "/users" for ::1 at 2015-03-08 13:25:27 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 70]]
+  Rendered users/index.html.erb within layouts/application (29.8ms)
+Completed 200 OK in 300ms (Views: 279.9ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/users-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 13:25:27 -0700
+
+
+Started GET "/assets/jquery_ujs-b6180cd5656412d5eba8ffc0fdd2bf4a.js?body=1" for ::1 at 2015-03-08 13:25:27 -0700
+
+
+Started GET "/assets/jquery-9d751bd21c4864f65bfbd8f54a1de10c.js?body=1" for ::1 at 2015-03-08 13:25:27 -0700
+
+
+Started GET "/assets/parsley-b019c1a563f900f24f42eec3d600c242.js?body=1" for ::1 at 2015-03-08 13:25:27 -0700
+
+
+Started GET "/assets/parsley-7f39b5bafe42db534ec9c25ba2e11da0.css?body=1" for ::1 at 2015-03-08 13:25:27 -0700
+
+
+Started GET "/assets/userfriendships-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 13:25:27 -0700
+
+
+Started GET "/assets/sessions-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 13:25:28 -0700
+
+
+Started GET "/assets/angular-dd9b868f194cd3c412cf05669f220b2e.js?body=1" for ::1 at 2015-03-08 13:25:28 -0700
+
+
+Started GET "/assets/angular-resource-2f42a539c64958820ae3087993bb2e37.js?body=1" for ::1 at 2015-03-08 13:25:28 -0700
+
+
+Started GET "/assets/angular/app-14ebf7d85cb521dabe9cb8036326ac2f.js?body=1" for ::1 at 2015-03-08 13:25:28 -0700
+
+
+Started GET "/assets/angular/search-2bacd47b0b58f3201fca7ec05baf43b8.js?body=1" for ::1 at 2015-03-08 13:25:28 -0700
+
+
+Started GET "/assets/angular/users-d55de7b5f9c898897556825c88bf6552.js?body=1" for ::1 at 2015-03-08 13:25:28 -0700
+
+
+Started GET "/assets/angular/usersController-e986f9631ac9daafb09ad200f91b7352.js?body=1" for ::1 at 2015-03-08 13:25:28 -0700
+
+
+Started GET "/assets/sessions-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 13:25:28 -0700
+
+
+Started GET "/assets/userfriendships-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 13:25:28 -0700
+
+
+Started GET "/assets/users-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 13:25:28 -0700
+
+
+Started GET "/api/users" for ::1 at 2015-03-08 13:25:28 -0700
+Processing by UsersController#index as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 70]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 14ms (Views: 9.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/new" for ::1 at 2015-03-08 13:25:32 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (20.9ms)
+Completed 200 OK in 191ms (Views: 190.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 13:25:32 -0700
+
+
+Started GET "/assets/jquery-9d751bd21c4864f65bfbd8f54a1de10c.js?body=1" for ::1 at 2015-03-08 13:25:32 -0700
+
+
+Started GET "/assets/userfriendships-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 13:25:32 -0700
+
+
+Started GET "/assets/users-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 13:25:32 -0700
+
+
+Started GET "/assets/parsley-7f39b5bafe42db534ec9c25ba2e11da0.css?body=1" for ::1 at 2015-03-08 13:25:32 -0700
+
+
+Started GET "/assets/jquery_ujs-b6180cd5656412d5eba8ffc0fdd2bf4a.js?body=1" for ::1 at 2015-03-08 13:25:32 -0700
+
+
+Started GET "/assets/parsley-b019c1a563f900f24f42eec3d600c242.js?body=1" for ::1 at 2015-03-08 13:25:32 -0700
+
+
+Started GET "/assets/angular-dd9b868f194cd3c412cf05669f220b2e.js?body=1" for ::1 at 2015-03-08 13:25:32 -0700
+
+
+Started GET "/assets/angular-resource-2f42a539c64958820ae3087993bb2e37.js?body=1" for ::1 at 2015-03-08 13:25:32 -0700
+
+
+Started GET "/assets/angular/app-14ebf7d85cb521dabe9cb8036326ac2f.js?body=1" for ::1 at 2015-03-08 13:25:32 -0700
+
+
+Started GET "/assets/angular/search-2bacd47b0b58f3201fca7ec05baf43b8.js?body=1" for ::1 at 2015-03-08 13:25:32 -0700
+
+
+Started GET "/assets/angular/users-d55de7b5f9c898897556825c88bf6552.js?body=1" for ::1 at 2015-03-08 13:25:32 -0700
+
+
+Started GET "/assets/angular/usersController-e986f9631ac9daafb09ad200f91b7352.js?body=1" for ::1 at 2015-03-08 13:25:32 -0700
+
+
+Started GET "/assets/sessions-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 13:25:32 -0700
+
+
+Started GET "/assets/userfriendships-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 13:25:32 -0700
+
+
+Started GET "/assets/users-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 13:25:32 -0700
+
+
+Started POST "/users" for ::1 at 2015-03-08 13:25:51 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0E5E/tJMvAH8EfvIaL6T3ydQM+qZ8SO7IfIixyddI2O9Aa4eOfOL5pYRlogKmGisxQ0jZ+GejPd0ol5ikRTytA==", "user"=>{"name"=>"wee", "email"=>"wee@wee.com", "age"=>"112", "location"=>"wee", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fce859a63d8 @tempfile=#<Tempfile:/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/RackMultipart20150308-37233-1r8z583.jpeg>, @original_filename="slideinyourdmslike.jpeg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[avatar]\"; filename=\"slideinyourdmslike.jpeg\"\r\nContent-Type: image/jpeg\r\n">, "password"=>"[FILTERED]", "created_at"=>""}, "commit"=>"Create User"}
+Unpermitted parameter: created_at
+Command :: file -b --mime '/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/9cd645b67f0890d581029454ff1de29620150308-37233-p8vnnk.jpeg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/9cd645b67f0890d581029454ff1de29620150308-37233-584yk0.jpeg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/9cd645b67f0890d581029454ff1de29620150308-37233-584yk0.jpeg[0]'
+Command :: convert '/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/9cd645b67f0890d581029454ff1de29620150308-37233-584yk0.jpeg[0]' -auto-orient -resize "100x100>" '/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/9cd645b67f0890d581029454ff1de29620150308-37233-584yk020150308-37233-1nydugt'
+Command :: file -b --mime '/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/9cd645b67f0890d581029454ff1de29620150308-37233-584yk020150308-37233-1nydugt'
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Command :: file -b --mime '/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/9cd645b67f0890d581029454ff1de29620150308-37233-g2bynn.jpeg'
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("name", "email", "age", "location", "avatar_file_name", "avatar_content_type", "avatar_file_size", "avatar_updated_at", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["name", "wee"], ["email", "wee@wee.com"], ["age", 112], ["location", "wee"], ["avatar_file_name", "slideinyourdmslike.jpeg"], ["avatar_content_type", "image/jpeg"], ["avatar_file_size", 86406], ["avatar_updated_at", "2015-03-08 13:25:51.376480"], ["password_digest", "$2a$10$gkhnJraNApszXAQyBIGo2.OEMGp4iBqaoYQ55v8iOkDvu4ajkVBxq"], ["created_at", "2015-03-08 13:25:51.595098"], ["updated_at", "2015-03-08 13:25:51.595098"]]
+[paperclip] saving /users/avatars/000/000/074/original/slideinyourdmslike.jpeg
+[AWS S3 200 1.066762 0 retries] put_object(:acl=>:public_read,:bucket_name=>"writershare",:content_length=>86406,:content_type=>"image/jpeg",:data=>Paperclip::UploadedFileAdapter: slideinyourdmslike.jpeg,:key=>"users/avatars/000/000/074/original/slideinyourdmslike.jpeg")  
+
+[paperclip] saving /users/avatars/000/000/074/normal/slideinyourdmslike.jpeg
+[AWS S3 200 0.123758 0 retries] put_object(:acl=>:public_read,:bucket_name=>"writershare",:content_length=>6474,:content_type=>"image/jpeg",:data=>Paperclip::FileAdapter: 9cd645b67f0890d581029454ff1de29620150308-37233-584yk020150308-37233-1nydugt,:key=>"users/avatars/000/000/074/normal/slideinyourdmslike.jpeg")  
+
+  [1m[36m (5.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 1582ms (ActiveRecord: 6.1ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-03-08 13:25:52 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 257ms (Views: 256.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/sessions-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 13:25:53 -0700
+
+
+Started GET "/assets/userfriendships-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 13:25:53 -0700
+
+
+Started GET "/assets/jquery_ujs-b6180cd5656412d5eba8ffc0fdd2bf4a.js?body=1" for ::1 at 2015-03-08 13:25:53 -0700
+
+
+Started GET "/assets/parsley-7f39b5bafe42db534ec9c25ba2e11da0.css?body=1" for ::1 at 2015-03-08 13:25:53 -0700
+
+
+Started GET "/assets/jquery-9d751bd21c4864f65bfbd8f54a1de10c.js?body=1" for ::1 at 2015-03-08 13:25:53 -0700
+
+
+Started GET "/assets/users-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 13:25:53 -0700
+
+
+Started GET "/assets/parsley-b019c1a563f900f24f42eec3d600c242.js?body=1" for ::1 at 2015-03-08 13:25:53 -0700
+
+
+Started GET "/assets/angular-dd9b868f194cd3c412cf05669f220b2e.js?body=1" for ::1 at 2015-03-08 13:25:53 -0700
+
+
+Started GET "/assets/angular-resource-2f42a539c64958820ae3087993bb2e37.js?body=1" for ::1 at 2015-03-08 13:25:53 -0700
+
+
+Started GET "/assets/angular/app-14ebf7d85cb521dabe9cb8036326ac2f.js?body=1" for ::1 at 2015-03-08 13:25:53 -0700
+
+
+Started GET "/assets/angular/search-2bacd47b0b58f3201fca7ec05baf43b8.js?body=1" for ::1 at 2015-03-08 13:25:53 -0700
+
+
+Started GET "/assets/angular/users-d55de7b5f9c898897556825c88bf6552.js?body=1" for ::1 at 2015-03-08 13:25:53 -0700
+
+
+Started GET "/assets/sessions-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 13:25:53 -0700
+
+
+Started GET "/assets/userfriendships-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 13:25:53 -0700
+
+
+Started GET "/assets/angular/usersController-e986f9631ac9daafb09ad200f91b7352.js?body=1" for ::1 at 2015-03-08 13:25:53 -0700
+
+
+Started GET "/assets/users-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 13:25:53 -0700
+
+
+Started POST "/sessions" for ::1 at 2015-03-08 13:26:00 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ql6nuKXu5UN+ETgiXhwZ3prkXxDDpM7C/KWtmRe5A3vHEU1YTlHSpBQRVWI8OuKteLlPnbvLYY6p9dE8ofDSrA==", "session"=>{"email"=>"wee@wee.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["email", "wee@wee.com"]]
+Redirected to http://localhost:3000/users
+Completed 302 Found in 86ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for ::1 at 2015-03-08 13:26:00 -0700
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 74]]
+  Rendered users/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 131ms (Views: 130.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/sessions-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 13:26:00 -0700
+
+
+Started GET "/assets/jquery-9d751bd21c4864f65bfbd8f54a1de10c.js?body=1" for ::1 at 2015-03-08 13:26:00 -0700
+
+
+Started GET "/assets/parsley-7f39b5bafe42db534ec9c25ba2e11da0.css?body=1" for ::1 at 2015-03-08 13:26:00 -0700
+
+
+Started GET "/assets/users-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 13:26:00 -0700
+
+
+Started GET "/assets/userfriendships-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 13:26:00 -0700
+
+
+Started GET "/assets/parsley-b019c1a563f900f24f42eec3d600c242.js?body=1" for ::1 at 2015-03-08 13:26:00 -0700
+
+
+Started GET "/assets/jquery_ujs-b6180cd5656412d5eba8ffc0fdd2bf4a.js?body=1" for ::1 at 2015-03-08 13:26:00 -0700
+
+
+Started GET "/assets/angular-dd9b868f194cd3c412cf05669f220b2e.js?body=1" for ::1 at 2015-03-08 13:26:00 -0700
+
+
+Started GET "/assets/angular-resource-2f42a539c64958820ae3087993bb2e37.js?body=1" for ::1 at 2015-03-08 13:26:00 -0700
+
+
+Started GET "/assets/angular/app-14ebf7d85cb521dabe9cb8036326ac2f.js?body=1" for ::1 at 2015-03-08 13:26:00 -0700
+
+
+Started GET "/assets/angular/search-2bacd47b0b58f3201fca7ec05baf43b8.js?body=1" for ::1 at 2015-03-08 13:26:00 -0700
+
+
+Started GET "/assets/angular/users-d55de7b5f9c898897556825c88bf6552.js?body=1" for ::1 at 2015-03-08 13:26:00 -0700
+
+
+Started GET "/assets/angular/usersController-e986f9631ac9daafb09ad200f91b7352.js?body=1" for ::1 at 2015-03-08 13:26:00 -0700
+
+
+Started GET "/assets/sessions-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 13:26:00 -0700
+
+
+Started GET "/assets/userfriendships-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 13:26:00 -0700
+
+
+Started GET "/assets/users-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 13:26:00 -0700
+
+
+Started GET "/api/users" for ::1 at 2015-03-08 13:26:00 -0700
+Processing by UsersController#index as JSON
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 74]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 18ms (Views: 13.8ms | ActiveRecord: 1.3ms)
