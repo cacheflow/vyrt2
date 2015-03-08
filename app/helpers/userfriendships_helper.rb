@@ -1,0 +1,2 @@
+module UserfriendshipsHelper
+end

@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
-  root "sessions#new"
-  resources :users, :only => [:index, :new, :edit, :create]
+  root "users#new"
+  resources :user_friendships
+  resources :users, :only => [:index, :new, :edit, :create, :update, :show]
   resources :sessions, :only => [:new, :create, :destroy]
   scope '/api' do
     resources :users, :only => [:index], 

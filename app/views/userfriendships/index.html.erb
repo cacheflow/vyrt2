@@ -1,0 +1,69 @@
+<div class="container">
+    <div class="row">
+        <div class="col"></div>   
+        <div class="col-md-4">
+            <h2><%=@user.name %>'s Profile</h2>
+            <div id="profile-photo">
+                <% if @user.avatar_file_name %>
+                    <%= image_tag @user.avatar_url(:medium) %><br /><br />
+                <% end %>
+            </div>
+            <p>Email: <%= @user.email %></p>
+            <% if current_user == @user %>
+            <!-- Allows for only the actual user of a given profile to see the link to edit their user page. -->
+                <%= link_to "Edit My Profile", edit_user_path(@user), class: "btn btn-info btn-block" %>
+            <% end %>
+            <% if current_user != @user %>
+            <!-- If the person viewing the user's show page is not owner of that particular page, they do not see the option to add themselves as a friend -->
+                <%= link_to "Add #{@user.name} as a Friend", user_friendships_path(:friend_id => @user), :method => :post, class: "btn btn-success btn-block" %>
+            <% end %>
+            <% if current_user == @user %>
+            <!-- Only the owner of the show page sees the link to create a new instance of a writing project for themselves -->
+                <%= link_to "Add A New Writing Project", new_user_version_path(@user), class: "btn btn-success btn-block" %>
+            <% end %>
+            <!-- This link allows both the owner and other users to see their index of writing projects -->
+                <%= link_to "See My Writing Projects", user_versions_path(@user), class: "btn btn-info btn-block" %>
+
+        </div>
+        <div class="col-md-4">
+            <h2><%= @user.name %>'s Friends</h2>
+                <ul>
+                <% @user.user_friendships.each do |f| %>
+                    <li>
+                    <hr>
+                        <!-- displays the friend's avatar picture if it is present -->
+                        <% if f.friend.avatar_file_name %>
+                            <%= link_to image_tag(f.friend.avatar_url(:thumb)), user_path(f.friend), style: "padding: 0" %>
+                        <% end %>
+                        
+                        <!-- makes the friend's name a link to their respective show page -->
+                        <%= link_to f.friend.name.titleize, user_path(f.friend_id) %>
+                        <% if @user == current_user %>
+                            <!-- this link allows the user to remove a friend -->
+                            <%= link_to "remove friend", user_friendship_path(f), :method => :delete, class: "btn btn-danger btn-xs" %>
+                        <% end %>
+                    </li>
+                <% end %>
+                </ul>
+        </div>
+        <div class="col-md-4">
+            <h2>Users That Have Friended <%= @user.name %></h2>
+                <ul>
+                <% @user.inverse_friends.each do |f| %>
+                    <li>
+                    <hr>
+                        <% if f.avatar_file_name %>
+                            <%= image_tag f.avatar_url(:thumb) %>
+                        <% end %>
+                        
+                        <%= link_to f.name.titleize, user_path(f)%>
+                        <% if @user == current_user %>
+                        <!-- this link allows the user to remove someone who has friended that user. IT IS CURRENTLY BROKEN !! -->
+                        <%= link_to "remove friend", user_friendship_path(f.id), :method => :delete, class: "btn btn-danger btn-xs" %>
+                        <% end %>
+                    </li>
+                <% end %>
+                </ul>
+        </div>
+    </div>
+</div>
