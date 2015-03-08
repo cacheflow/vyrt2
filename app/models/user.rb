@@ -2,7 +2,7 @@ require "bcrypt"
 class User < ActiveRecord::Base
 has_secure_password 
  has_attached_file(:avatar, 
-                  :default_url => ActionController::Base.helpers.asset_path("default.jpg"),
+                  :default_url => 'https://s3.amazonaws.com/uploads.hipchat.com/39979/584180/DCtdlGAMiZe8uqP/upload.png',
                   :bucket => 'writershare',
                   :styles => {:normal => "100x100>"})
 
