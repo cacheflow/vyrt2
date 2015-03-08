@@ -38336,3 +38336,93 @@ Processing by UsersController#index as JSON
   [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 74]]
   [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
 Completed 200 OK in 18ms (Views: 13.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/users" for ::1 at 2015-03-08 13:30:06 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 74]]
+  Rendered users/index.html.erb within layouts/application (32.5ms)
+Completed 200 OK in 295ms (Views: 274.7ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/assets/users-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 13:30:06 -0700
+
+
+Started GET "/assets/sessions-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 13:30:06 -0700
+
+
+Started GET "/assets/userfriendships-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 13:30:06 -0700
+
+
+Started GET "/assets/parsley-7f39b5bafe42db534ec9c25ba2e11da0.css?body=1" for ::1 at 2015-03-08 13:30:06 -0700
+
+
+Started GET "/assets/jquery-9d751bd21c4864f65bfbd8f54a1de10c.js?body=1" for ::1 at 2015-03-08 13:30:06 -0700
+
+
+Started GET "/assets/jquery_ujs-b6180cd5656412d5eba8ffc0fdd2bf4a.js?body=1" for ::1 at 2015-03-08 13:30:06 -0700
+
+
+Started GET "/assets/parsley-b019c1a563f900f24f42eec3d600c242.js?body=1" for ::1 at 2015-03-08 13:30:06 -0700
+
+
+Started GET "/assets/angular-dd9b868f194cd3c412cf05669f220b2e.js?body=1" for ::1 at 2015-03-08 13:30:06 -0700
+
+
+Started GET "/assets/angular-resource-2f42a539c64958820ae3087993bb2e37.js?body=1" for ::1 at 2015-03-08 13:30:06 -0700
+
+
+Started GET "/assets/angular/app-14ebf7d85cb521dabe9cb8036326ac2f.js?body=1" for ::1 at 2015-03-08 13:30:06 -0700
+
+
+Started GET "/assets/angular/search-2bacd47b0b58f3201fca7ec05baf43b8.js?body=1" for ::1 at 2015-03-08 13:30:06 -0700
+
+
+Started GET "/assets/angular/users-d55de7b5f9c898897556825c88bf6552.js?body=1" for ::1 at 2015-03-08 13:30:06 -0700
+
+
+Started GET "/assets/angular/usersController-e986f9631ac9daafb09ad200f91b7352.js?body=1" for ::1 at 2015-03-08 13:30:06 -0700
+
+
+Started GET "/assets/sessions-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 13:30:07 -0700
+
+
+Started GET "/assets/userfriendships-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 13:30:07 -0700
+
+
+Started GET "/assets/users-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 13:30:07 -0700
+
+
+Started GET "/api/users" for ::1 at 2015-03-08 13:30:07 -0700
+Processing by UsersController#index as JSON
+  [1m[36mUser Load (2.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 74]]
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 30ms (Views: 19.7ms | ActiveRecord: 2.8ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (6.5ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 70]]
+  [1m[35m (6.1ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "users" WHERE "users"."id" = $1  [["id", 71]]
+  [1m[36m (6.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+[AWS S3 404 0.514722 0 retries] head_object(:bucket_name=>"writershare",:key=>"users/avatars/000/000/072/original/IMG_3537_(1).jpg") AWS::S3::Errors::NoSuchKey No Such Key
+
+[AWS S3 404 0.149931 0 retries] head_object(:bucket_name=>"writershare",:key=>"users/avatars/000/000/072/normal/IMG_3537_(1).jpg") AWS::S3::Errors::NoSuchKey No Such Key
+
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 72]]
+  [1m[35m (6.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+[AWS S3 200 0.117776 0 retries] head_object(:bucket_name=>"writershare",:key=>"users/avatars/000/000/074/original/slideinyourdmslike.jpeg")  
+
+[AWS S3 200 0.120885 0 retries] head_object(:bucket_name=>"writershare",:key=>"users/avatars/000/000/074/normal/slideinyourdmslike.jpeg")  
+
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "users" WHERE "users"."id" = $1  [["id", 74]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+[paperclip] deleting /users/avatars/000/000/074/original/slideinyourdmslike.jpeg
+[AWS S3 204 0.13205 0 retries] delete_object(:bucket_name=>"writershare",:key=>"users/avatars/000/000/074/original/slideinyourdmslike.jpeg")  
+
+[paperclip] deleting /users/avatars/000/000/074/normal/slideinyourdmslike.jpeg
+[AWS S3 204 0.118899 0 retries] delete_object(:bucket_name=>"writershare",:key=>"users/avatars/000/000/074/normal/slideinyourdmslike.jpeg")  
+
