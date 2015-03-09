@@ -13,8 +13,6 @@ Rails.application.configure do
   # Full error reports are disabled and caching is turned on.
   config.consider_all_requests_local       = false
   config.action_controller.perform_caching = true
-
-  config.serve_static_assets = true
   config.assets.compile = true
   config.assets.digest = true
   # Enable Rack::Cache to put a simple HTTP cache in front of your application

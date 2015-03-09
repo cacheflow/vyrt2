@@ -2,5 +2,9 @@ angular
   .module('app')
   .controller('usersController', ['$scope', 'User',
     function($scope, User) {
-    $scope.users = User.query();
+    User.query(function(json){
+
+    $scope.users = json;
+  });
+
   }]);
