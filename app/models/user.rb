@@ -2,7 +2,7 @@ require "bcrypt"
 class User < ActiveRecord::Base
 has_secure_password 
  has_attached_file(:avatar, 
-                :default_url => 'http://s3.amazonaws.com/vyrt2/users/avatars/000/000/082/original/10_everyday_psychology_you_should_know.png?1425850121',
+                :default_url => 'http://i.huffpost.com/gen/2364914/thumbs/o-GRUMPY-CAT-facebook.jpg',
                   :styles => {:normal => "100x100>"})
 
  validates_attachment_content_type :avatar, :content_type => ["image/jpg", "image/jpeg", "image/png", "image/gif"]
