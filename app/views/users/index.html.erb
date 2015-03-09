@@ -1,9 +1,4 @@
-<%=link_to "Can't see the users? Click here", users_path %> <%=link_to "Login", users_path %> 
-<% if current_user %>
-  <%= current_user.name %> 
-<% else %> 
-  <p>Hello Stranger You should sign in</p>
-  <% end %> 
+
 <div class="container">
   <div ng-controller="usersController" class="row">
     <h1>Users</h1>

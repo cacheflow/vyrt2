@@ -1,4 +1,4 @@
-<%=form_for @user, html: {'data-parsley-validate' => ''} do |u| %> 
+<%=bootstrap_form_for @user, html: {'data-parsley-validate' => ''} do |u| %> 
   <%=u.text_field :name, required: true, 
   'data-parsley-trigger' => 'blur', placeholder: 'name' %> 
   <%=u.email_field :email, required: true, 'data-parsley-type' => 'email',
@@ -7,12 +7,20 @@
   'data-parsley-type' => 'digits',
   'data-parsley-trigger' => 'blur',
   placeholder: 'age' %> 
+
   <%=u.text_field :location,required: true, 
   'data-parsley-trigger' => 'blur', placeholder: 'location' %> 
+
   <%=u.file_field :avatar %>
   <%=u.password_field :password,required: true, 
   'data-parsley-trigger' => 'blur', placeholder: 'password' %>
   <%=u.hidden_field :created_at %> 
   <%=u.submit "Create User" %>  
 <% end %> 
+
+<%= bootstrap_form_for(@user) do |f| %>
+  <%= f.email_field :email %>
+  <%= f.password_field :password %>
+  <%= f.submit "Log In" %>
+<% end %>
 
