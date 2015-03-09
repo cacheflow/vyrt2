@@ -1,10 +1,19 @@
-<h1>Log In</h1>
-  <%= bootstrap_form_for :session, html: {'data-parsley-validate' => ''}, :url => sessions_path do |f| %>
-    
-    <%=f.email_field :email, required: true, 'data-parsley-type' => 'email',
-  'data-parsley-trigger' => 'blur', placeholder: 'email' %>  
-    
-    <%= f.password_field :password, required: true, placeholder: 'password' %>
-  <%= f.submit "Log in", class: 'btn btn-info' %>
-  <% end %>
+<% if current_user %> 
+  <p>Hello <%= current_user.name%> no need to login in
+  go back and have some <%=link_to "fun.", users_path %> 
+  </p>
+
+
+<% else %> 
+
+  <h1>Log In</h1>
+    <%= bootstrap_form_for :session, html: {'data-parsley-validate' => ''}, :url => sessions_path do |f| %>
+      
+      <%=f.email_field :email, required: true, 'data-parsley-type' => 'email',
+    'data-parsley-trigger' => 'blur', placeholder: 'email', class: "form-control" %>  
+      
+      <%= f.password_field :password, required: true, placeholder: 'password', class: "form-control" %>
+    <%= f.submit "Log in", class: 'btn btn-info' %>
+    <% end %>
+ <% end %>  
   

@@ -48092,3 +48092,2004 @@ Processing by UsersController#index as JSON
   [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 91]]
   [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
 Completed 200 OK in 54ms (Views: 30.0ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/users" for ::1 at 2015-03-08 18:47:10 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 179ms
+
+ActionView::Template::Error (couldn't find file 'angular'
+  (in /Users/lexisalexander/Documents/vyrt2/app/assets/javascripts/application.js:17)):
+    4: <head>
+    5:   <title>Vyrt</title>
+    6:   <%= stylesheet_link_tag   'application' %>
+    7:   <%= javascript_include_tag 'application'  %>
+    8:   <%= csrf_meta_tags %>
+    9:  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> 
+   10:  <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js">
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___2676890021655055211_70165243210400'
+  app/controllers/users_controller.rb:10:in `index'
+
+
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.3ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (38.1ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.4ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.5ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.4ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (20.4ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.5ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.6ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (49.8ms)
+
+
+Started GET "/users" for ::1 at 2015-03-08 18:47:41 -0700
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 128ms
+
+ActionView::Template::Error (couldn't find file 'angular-resource'
+  (in /Users/lexisalexander/Documents/vyrt2/app/assets/javascripts/application.js:17)):
+    4: <head>
+    5:   <title>Vyrt</title>
+    6:   <%= stylesheet_link_tag   'application' %>
+    7:   <%= javascript_include_tag 'application'  %>
+    8:   <%= csrf_meta_tags %>
+    9:  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> 
+   10:  <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js">
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___2676890021655055211_70165243210400'
+  app/controllers/users_controller.rb:10:in `index'
+
+
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.7ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.3ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.2ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (15.1ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.3ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.4ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (33.7ms)
+
+
+Started GET "/users" for ::1 at 2015-03-08 18:47:47 -0700
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 91]]
+Completed 200 OK in 373ms (Views: 369.7ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/sessions-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/assets/userfriendships-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/assets/users-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/assets/parsley-7f39b5bafe42db534ec9c25ba2e11da0.css?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/assets/rails_bootstrap_forms-d2756374a10193db9cbe3459155b84c5.css?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/assets/jquery_ujs-b6180cd5656412d5eba8ffc0fdd2bf4a.js?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/assets/bootstrap/affix-3a78b42a7b9b5fe4a1aae5204a23cda7.js?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/assets/bootstrap/alert-ff6f1369e2f4b2dad0dafbf1a7f632ab.js?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/assets/bootstrap/carousel-5e55676f8f8dc98e7ac4e09626589778.js?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/assets/jquery-9d751bd21c4864f65bfbd8f54a1de10c.js?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/assets/bootstrap/button-e89c73302ae0d08bf85f31bf60c7748a.js?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/assets/bootstrap/collapse-ad179829e405acfe0bd89c400bb063d5.js?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-3baa03586c841d494755a90819ff1ae1.js?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/assets/bootstrap/tab-490d07d29dc0e77d3186d9d28a4fa23c.js?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-4919990290faa565bbe5091da425f131.js?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/assets/bootstrap/transition-cac5f2b77bec6224a4a4a3481c09ee8e.js?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/assets/bootstrap/modal-e916a401165ddff09f35f9672adfffd6.js?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-a4c08ba0beb0e13d09822d361a6ccc5c.js?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-06de2f833b2b570d645ca56d82e64b67.js?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/assets/bootstrap/popover-49dee8837c81461197c53bceab1aef84.js?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/assets/parsley-b019c1a563f900f24f42eec3d600c242.js?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/assets/angular/search-856abfff2c3f6f69069c02fbeaddc64a.js?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/assets/angular/users-27b6682a39fe1ea46bcc575f9ec0691d.js?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/assets/angular/app-14ebf7d85cb521dabe9cb8036326ac2f.js?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/assets/angular/usersController-e986f9631ac9daafb09ad200f91b7352.js?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/assets/sessions-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/assets/userfriendships-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/assets/users-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/assets/application-19dc9fae6f1f869ebbebbe92bcd6902a.js?body=1" for ::1 at 2015-03-08 18:47:48 -0700
+
+
+Started GET "/users" for ::1 at 2015-03-08 18:48:02 -0700
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 95ms
+
+ActionView::Template::Error (couldn't find file 'angular-resource'
+  (in /Users/lexisalexander/Documents/vyrt2/app/assets/javascripts/application.js:17)):
+    4: <head>
+    5:   <title>Vyrt</title>
+    6:   <%= stylesheet_link_tag   'application' %>
+    7:   <%= javascript_include_tag 'application'  %>
+    8:   <%= csrf_meta_tags %>
+    9:  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> 
+   10:  <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js">
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___2676890021655055211_70165243210400'
+  app/controllers/users_controller.rb:10:in `index'
+
+
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.3ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.4ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.3ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.5ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.5ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (20.6ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.5ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.6ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (38.5ms)
+
+
+Started GET "/users" for ::1 at 2015-03-08 18:48:07 -0700
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 85ms
+
+ActionView::Template::Error (couldn't find file 'angular'
+  (in /Users/lexisalexander/Documents/vyrt2/app/assets/javascripts/application.js:17)):
+    4: <head>
+    5:   <title>Vyrt</title>
+    6:   <%= stylesheet_link_tag   'application' %>
+    7:   <%= javascript_include_tag 'application'  %>
+    8:   <%= csrf_meta_tags %>
+    9:  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> 
+   10:  <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js">
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___2676890021655055211_70165243210400'
+  app/controllers/users_controller.rb:10:in `index'
+
+
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.4ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.3ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.3ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (14.7ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.3ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.4ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (31.8ms)
+
+
+Started GET "/users/new" for ::1 at 2015-03-08 18:48:16 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (45.9ms)
+Completed 500 Internal Server Error in 131ms
+
+ActionView::Template::Error (couldn't find file 'angular'
+  (in /Users/lexisalexander/Documents/vyrt2/app/assets/javascripts/application.js:17)):
+    4: <head>
+    5:   <title>Vyrt</title>
+    6:   <%= stylesheet_link_tag   'application' %>
+    7:   <%= javascript_include_tag 'application'  %>
+    8:   <%= csrf_meta_tags %>
+    9:  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> 
+   10:  <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js">
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___2676890021655055211_70165243210400'
+
+
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.3ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.3ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.2ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (12.8ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.3ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.4ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (28.6ms)
+
+
+Started GET "/users/new" for ::1 at 2015-03-08 18:49:01 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (7.5ms)
+Completed 500 Internal Server Error in 146ms
+
+ActionView::Template::Error (couldn't find file 'angular'
+  (in /Users/lexisalexander/Documents/vyrt2/app/assets/javascripts/application.js:17)):
+    4: <head>
+    5:   <title>Vyrt</title>
+    6:   <%= stylesheet_link_tag   'application' %>
+    7:   <%= javascript_include_tag 'application'  %>
+    8:   <%= csrf_meta_tags %>
+    9:  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> 
+   10:  <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js">
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___2676890021655055211_70165243210400'
+
+
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.2ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.6ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.5ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.4ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (20.7ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.3ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.4ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (44.8ms)
+
+
+Started GET "/users/new" for ::1 at 2015-03-08 18:49:25 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (45.3ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 91]]
+Completed 200 OK in 542ms (Views: 518.5ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/parsley-7f39b5bafe42db534ec9c25ba2e11da0.css?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/userfriendships-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/sessions-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/bootstrap/alert-ff6f1369e2f4b2dad0dafbf1a7f632ab.js?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/rails_bootstrap_forms-d2756374a10193db9cbe3459155b84c5.css?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/users-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/bootstrap/affix-3a78b42a7b9b5fe4a1aae5204a23cda7.js?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/bootstrap/carousel-5e55676f8f8dc98e7ac4e09626589778.js?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/bootstrap/collapse-ad179829e405acfe0bd89c400bb063d5.js?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-3baa03586c841d494755a90819ff1ae1.js?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/bootstrap/tab-490d07d29dc0e77d3186d9d28a4fa23c.js?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/jquery-9d751bd21c4864f65bfbd8f54a1de10c.js?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-4919990290faa565bbe5091da425f131.js?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/jquery_ujs-b6180cd5656412d5eba8ffc0fdd2bf4a.js?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-a4c08ba0beb0e13d09822d361a6ccc5c.js?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/bootstrap/modal-e916a401165ddff09f35f9672adfffd6.js?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/bootstrap/popover-49dee8837c81461197c53bceab1aef84.js?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/bootstrap/transition-cac5f2b77bec6224a4a4a3481c09ee8e.js?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/bootstrap/button-e89c73302ae0d08bf85f31bf60c7748a.js?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/parsley-b019c1a563f900f24f42eec3d600c242.js?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/angular/app-14ebf7d85cb521dabe9cb8036326ac2f.js?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/angular/search-856abfff2c3f6f69069c02fbeaddc64a.js?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/angular/users-27b6682a39fe1ea46bcc575f9ec0691d.js?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/angular/usersController-e986f9631ac9daafb09ad200f91b7352.js?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/angular-dd9b868f194cd3c412cf05669f220b2e.js?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-06de2f833b2b570d645ca56d82e64b67.js?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/sessions-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/userfriendships-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/angular-resource-2f42a539c64958820ae3087993bb2e37.js?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/users-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/assets/application-19dc9fae6f1f869ebbebbe92bcd6902a.js?body=1" for ::1 at 2015-03-08 18:49:26 -0700
+
+
+Started GET "/users" for ::1 at 2015-03-08 18:49:33 -0700
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 91]]
+Completed 200 OK in 237ms (Views: 233.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/userfriendships-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/sessions-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/users-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/rails_bootstrap_forms-d2756374a10193db9cbe3459155b84c5.css?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/parsley-7f39b5bafe42db534ec9c25ba2e11da0.css?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/jquery-9d751bd21c4864f65bfbd8f54a1de10c.js?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/jquery_ujs-b6180cd5656412d5eba8ffc0fdd2bf4a.js?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/bootstrap/affix-3a78b42a7b9b5fe4a1aae5204a23cda7.js?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/bootstrap/alert-ff6f1369e2f4b2dad0dafbf1a7f632ab.js?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/bootstrap/button-e89c73302ae0d08bf85f31bf60c7748a.js?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/bootstrap/carousel-5e55676f8f8dc98e7ac4e09626589778.js?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/bootstrap/collapse-ad179829e405acfe0bd89c400bb063d5.js?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-3baa03586c841d494755a90819ff1ae1.js?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/bootstrap/tab-490d07d29dc0e77d3186d9d28a4fa23c.js?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/bootstrap/transition-cac5f2b77bec6224a4a4a3481c09ee8e.js?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-4919990290faa565bbe5091da425f131.js?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/bootstrap/modal-e916a401165ddff09f35f9672adfffd6.js?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-a4c08ba0beb0e13d09822d361a6ccc5c.js?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/bootstrap/popover-49dee8837c81461197c53bceab1aef84.js?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-06de2f833b2b570d645ca56d82e64b67.js?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/parsley-b019c1a563f900f24f42eec3d600c242.js?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/angular-dd9b868f194cd3c412cf05669f220b2e.js?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/angular-resource-2f42a539c64958820ae3087993bb2e37.js?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/angular/app-14ebf7d85cb521dabe9cb8036326ac2f.js?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/angular/search-856abfff2c3f6f69069c02fbeaddc64a.js?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/angular/users-27b6682a39fe1ea46bcc575f9ec0691d.js?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/angular/usersController-e986f9631ac9daafb09ad200f91b7352.js?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/sessions-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/userfriendships-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/assets/users-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:49:33 -0700
+
+
+Started GET "/api/users" for ::1 at 2015-03-08 18:49:33 -0700
+Processing by UsersController#index as JSON
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 91]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 24ms (Views: 15.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/rails_bootstrap_forms-d2756374a10193db9cbe3459155b84c5.css?body=1" for ::1 at 2015-03-08 18:49:38 -0700
+
+
+Started GET "/assets/userfriendships-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:49:38 -0700
+
+
+Started GET "/assets/users-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:49:38 -0700
+
+
+Started GET "/assets/parsley-7f39b5bafe42db534ec9c25ba2e11da0.css?body=1" for ::1 at 2015-03-08 18:49:38 -0700
+
+
+Started GET "/assets/sessions-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:49:38 -0700
+
+
+Started GET "/users/new" for ::1 at 2015-03-08 18:50:01 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (46.0ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 91]]
+Completed 200 OK in 534ms (Views: 512.5ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/assets/sessions-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/userfriendships-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/users-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/rails_bootstrap_forms-d2756374a10193db9cbe3459155b84c5.css?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/parsley-7f39b5bafe42db534ec9c25ba2e11da0.css?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/jquery-9d751bd21c4864f65bfbd8f54a1de10c.js?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/jquery_ujs-b6180cd5656412d5eba8ffc0fdd2bf4a.js?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/bootstrap/collapse-ad179829e405acfe0bd89c400bb063d5.js?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/bootstrap/carousel-5e55676f8f8dc98e7ac4e09626589778.js?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/bootstrap/alert-ff6f1369e2f4b2dad0dafbf1a7f632ab.js?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/bootstrap/button-e89c73302ae0d08bf85f31bf60c7748a.js?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-3baa03586c841d494755a90819ff1ae1.js?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/bootstrap/affix-3a78b42a7b9b5fe4a1aae5204a23cda7.js?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-a4c08ba0beb0e13d09822d361a6ccc5c.js?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/bootstrap/popover-49dee8837c81461197c53bceab1aef84.js?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-06de2f833b2b570d645ca56d82e64b67.js?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-4919990290faa565bbe5091da425f131.js?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/angular-dd9b868f194cd3c412cf05669f220b2e.js?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/angular-resource-2f42a539c64958820ae3087993bb2e37.js?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/bootstrap/transition-cac5f2b77bec6224a4a4a3481c09ee8e.js?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/bootstrap/tab-490d07d29dc0e77d3186d9d28a4fa23c.js?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/bootstrap/modal-e916a401165ddff09f35f9672adfffd6.js?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/parsley-b019c1a563f900f24f42eec3d600c242.js?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/angular/usersController-e986f9631ac9daafb09ad200f91b7352.js?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/angular/app-14ebf7d85cb521dabe9cb8036326ac2f.js?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/sessions-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/userfriendships-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/angular/users-27b6682a39fe1ea46bcc575f9ec0691d.js?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/angular/search-856abfff2c3f6f69069c02fbeaddc64a.js?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/users-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started GET "/assets/application-19dc9fae6f1f869ebbebbe92bcd6902a.js?body=1" for ::1 at 2015-03-08 18:50:02 -0700
+
+
+Started POST "/users" for ::1 at 2015-03-08 18:50:21 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FEzuLJf++z1eLaB1BJr4oYJgiwx70ayEJ3J7eipzSB3MR1FJXTqZCtLyavt/jqFcPaNs8CC/CauI1RaxpzkBDQ==", "user"=>{"name"=>"lex", "email"=>"email@email.com", "age"=>"22", "location"=>"pasadena", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fc246e6e2a8 @tempfile=#<Tempfile:/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/RackMultipart20150308-3633-jlcfmw.jpeg>, @original_filename="pornhubBillboard.jpeg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[avatar]\"; filename=\"pornhubBillboard.jpeg\"\r\nContent-Type: image/jpeg\r\n">, "password"=>"[FILTERED]", "created_at"=>""}, "commit"=>"Create User"}
+Unpermitted parameter: created_at
+Command :: file -b --mime '/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/4034602106a97db6684f293aeb64128420150308-3633-1fhg5f2.jpeg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/4034602106a97db6684f293aeb64128420150308-3633-zngocn.jpeg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/4034602106a97db6684f293aeb64128420150308-3633-zngocn.jpeg[0]'
+Command :: convert '/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/4034602106a97db6684f293aeb64128420150308-3633-zngocn.jpeg[0]' -auto-orient -resize "100x100>" '/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/4034602106a97db6684f293aeb64128420150308-3633-zngocn20150308-3633-1h01e1m'
+Command :: file -b --mime '/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/4034602106a97db6684f293aeb64128420150308-3633-zngocn20150308-3633-1h01e1m'
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Command :: file -b --mime '/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/4034602106a97db6684f293aeb64128420150308-3633-tgwkis.jpeg'
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("name", "email", "age", "location", "avatar_file_name", "avatar_content_type", "avatar_file_size", "avatar_updated_at", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"  [["name", "lex"], ["email", "email@email.com"], ["age", 22], ["location", "pasadena"], ["avatar_file_name", "pornhubBillboard.jpeg"], ["avatar_content_type", "image/jpeg"], ["avatar_file_size", 99554], ["avatar_updated_at", "2015-03-08 18:50:21.339614"], ["password_digest", "$2a$10$c2lxjVisNonjgBHKIpT16ORgz54gi.vkwEjBoSUoHNNUKuxk0L20e"], ["created_at", "2015-03-08 18:50:21.592675"], ["updated_at", "2015-03-08 18:50:21.592675"]]
+  [1m[36m (13.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 294ms (ActiveRecord: 13.6ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-03-08 18:50:21 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.9ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 91]]
+Completed 200 OK in 277ms (Views: 276.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/sessions-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/users-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/userfriendships-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/parsley-7f39b5bafe42db534ec9c25ba2e11da0.css?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/rails_bootstrap_forms-d2756374a10193db9cbe3459155b84c5.css?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/jquery-9d751bd21c4864f65bfbd8f54a1de10c.js?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/bootstrap/button-e89c73302ae0d08bf85f31bf60c7748a.js?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/bootstrap/affix-3a78b42a7b9b5fe4a1aae5204a23cda7.js?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/bootstrap/carousel-5e55676f8f8dc98e7ac4e09626589778.js?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/jquery_ujs-b6180cd5656412d5eba8ffc0fdd2bf4a.js?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/bootstrap/alert-ff6f1369e2f4b2dad0dafbf1a7f632ab.js?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/bootstrap/collapse-ad179829e405acfe0bd89c400bb063d5.js?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-3baa03586c841d494755a90819ff1ae1.js?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/bootstrap/tab-490d07d29dc0e77d3186d9d28a4fa23c.js?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/bootstrap/transition-cac5f2b77bec6224a4a4a3481c09ee8e.js?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-a4c08ba0beb0e13d09822d361a6ccc5c.js?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/bootstrap/popover-49dee8837c81461197c53bceab1aef84.js?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-06de2f833b2b570d645ca56d82e64b67.js?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-4919990290faa565bbe5091da425f131.js?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/bootstrap/modal-e916a401165ddff09f35f9672adfffd6.js?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/angular-dd9b868f194cd3c412cf05669f220b2e.js?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/angular-resource-2f42a539c64958820ae3087993bb2e37.js?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/parsley-b019c1a563f900f24f42eec3d600c242.js?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/angular/app-14ebf7d85cb521dabe9cb8036326ac2f.js?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/angular/search-856abfff2c3f6f69069c02fbeaddc64a.js?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/angular/users-27b6682a39fe1ea46bcc575f9ec0691d.js?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/sessions-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/angular/usersController-e986f9631ac9daafb09ad200f91b7352.js?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/userfriendships-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/users-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/assets/application-19dc9fae6f1f869ebbebbe92bcd6902a.js?body=1" for ::1 at 2015-03-08 18:50:22 -0700
+
+
+Started GET "/sessions/new" for ::1 at 2015-03-08 18:51:22 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.4ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 91]]
+Completed 200 OK in 259ms (Views: 258.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/userfriendships-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/sessions-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/users-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/parsley-7f39b5bafe42db534ec9c25ba2e11da0.css?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/rails_bootstrap_forms-d2756374a10193db9cbe3459155b84c5.css?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/jquery-9d751bd21c4864f65bfbd8f54a1de10c.js?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/jquery_ujs-b6180cd5656412d5eba8ffc0fdd2bf4a.js?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/bootstrap/alert-ff6f1369e2f4b2dad0dafbf1a7f632ab.js?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/bootstrap/affix-3a78b42a7b9b5fe4a1aae5204a23cda7.js?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/bootstrap/button-e89c73302ae0d08bf85f31bf60c7748a.js?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/bootstrap/carousel-5e55676f8f8dc98e7ac4e09626589778.js?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/bootstrap/collapse-ad179829e405acfe0bd89c400bb063d5.js?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-3baa03586c841d494755a90819ff1ae1.js?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/bootstrap/tab-490d07d29dc0e77d3186d9d28a4fa23c.js?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/bootstrap/transition-cac5f2b77bec6224a4a4a3481c09ee8e.js?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-4919990290faa565bbe5091da425f131.js?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/bootstrap/modal-e916a401165ddff09f35f9672adfffd6.js?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-a4c08ba0beb0e13d09822d361a6ccc5c.js?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/bootstrap/popover-49dee8837c81461197c53bceab1aef84.js?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-06de2f833b2b570d645ca56d82e64b67.js?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/parsley-b019c1a563f900f24f42eec3d600c242.js?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/angular-dd9b868f194cd3c412cf05669f220b2e.js?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/angular-resource-2f42a539c64958820ae3087993bb2e37.js?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/angular/app-14ebf7d85cb521dabe9cb8036326ac2f.js?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/angular/search-856abfff2c3f6f69069c02fbeaddc64a.js?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/angular/users-27b6682a39fe1ea46bcc575f9ec0691d.js?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/angular/usersController-e986f9631ac9daafb09ad200f91b7352.js?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/sessions-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/userfriendships-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/users-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/assets/application-19dc9fae6f1f869ebbebbe92bcd6902a.js?body=1" for ::1 at 2015-03-08 18:51:23 -0700
+
+
+Started GET "/sessions/new" for ::1 at 2015-03-08 18:51:31 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.0ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 91]]
+Completed 200 OK in 251ms (Views: 250.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/sessions-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/userfriendships-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/parsley-7f39b5bafe42db534ec9c25ba2e11da0.css?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/jquery-9d751bd21c4864f65bfbd8f54a1de10c.js?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/rails_bootstrap_forms-d2756374a10193db9cbe3459155b84c5.css?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/users-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/jquery_ujs-b6180cd5656412d5eba8ffc0fdd2bf4a.js?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/bootstrap/affix-3a78b42a7b9b5fe4a1aae5204a23cda7.js?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/bootstrap/alert-ff6f1369e2f4b2dad0dafbf1a7f632ab.js?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/bootstrap/button-e89c73302ae0d08bf85f31bf60c7748a.js?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/bootstrap/carousel-5e55676f8f8dc98e7ac4e09626589778.js?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/bootstrap/collapse-ad179829e405acfe0bd89c400bb063d5.js?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-3baa03586c841d494755a90819ff1ae1.js?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/bootstrap/tab-490d07d29dc0e77d3186d9d28a4fa23c.js?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/bootstrap/transition-cac5f2b77bec6224a4a4a3481c09ee8e.js?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-4919990290faa565bbe5091da425f131.js?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/bootstrap/modal-e916a401165ddff09f35f9672adfffd6.js?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-a4c08ba0beb0e13d09822d361a6ccc5c.js?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/bootstrap/popover-49dee8837c81461197c53bceab1aef84.js?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-06de2f833b2b570d645ca56d82e64b67.js?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/parsley-b019c1a563f900f24f42eec3d600c242.js?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/angular-dd9b868f194cd3c412cf05669f220b2e.js?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/angular-resource-2f42a539c64958820ae3087993bb2e37.js?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/angular/app-14ebf7d85cb521dabe9cb8036326ac2f.js?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/angular/search-856abfff2c3f6f69069c02fbeaddc64a.js?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/angular/users-27b6682a39fe1ea46bcc575f9ec0691d.js?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/angular/usersController-e986f9631ac9daafb09ad200f91b7352.js?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/sessions-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/userfriendships-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/users-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started GET "/assets/application-19dc9fae6f1f869ebbebbe92bcd6902a.js?body=1" for ::1 at 2015-03-08 18:51:32 -0700
+
+
+Started POST "/sessions" for ::1 at 2015-03-08 18:51:39 -0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m1YAYhxGfAe7X0q42VL0ypXG6TUBODbaYk2iaFzZHTFDXb8H1oIeMDeAgDaiRq03KgUOyVpWk/XN6s+j0ZNUIQ==", "session"=>{"email"=>"email@email.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "email@email.com"]]
+Redirected to http://localhost:3000/users
+Completed 302 Found in 87ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/users" for ::1 at 2015-03-08 18:51:39 -0700
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.4ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 97]]
+Completed 500 Internal Server Error in 252ms
+
+ActionView::Template::Error (undefined method `avatar_url' for #<User:0x007fc248ca1270>):
+    24:       <ul class="nav navbar-nav navbar-right">
+    25:         <% if current_user %>
+    26:         <% if current_user.avatar_file_name %>
+    27:           <li><%= link_to image_tag(current_user.avatar_url(:normal)), user_path(current_user), style: "padding: 2px 0 0 0" %></li>
+    28:         <% end %>
+    29:         <li class="dropdown">
+    30:           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%= @current_user.name %><b class="caret"></b></a>
+  app/views/layouts/application.html.erb:27:in `_app_views_layouts_application_html_erb__1444575688624677617_70236175413920'
+  app/controllers/users_controller.rb:10:in `index'
+
+
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.4ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.5ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.4ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.4ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (21.6ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.4ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.6ms)
+  Rendered /Users/lexisalexander/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (48.1ms)
+
+
+Started GET "/users" for ::1 at 2015-03-08 18:52:02 -0700
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 97]]
+Completed 200 OK in 247ms (Views: 246.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/sessions-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/userfriendships-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/users-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/parsley-7f39b5bafe42db534ec9c25ba2e11da0.css?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/rails_bootstrap_forms-d2756374a10193db9cbe3459155b84c5.css?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/jquery-9d751bd21c4864f65bfbd8f54a1de10c.js?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/jquery_ujs-b6180cd5656412d5eba8ffc0fdd2bf4a.js?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/bootstrap/affix-3a78b42a7b9b5fe4a1aae5204a23cda7.js?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/bootstrap/button-e89c73302ae0d08bf85f31bf60c7748a.js?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/bootstrap/carousel-5e55676f8f8dc98e7ac4e09626589778.js?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/bootstrap/alert-ff6f1369e2f4b2dad0dafbf1a7f632ab.js?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/bootstrap/collapse-ad179829e405acfe0bd89c400bb063d5.js?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-3baa03586c841d494755a90819ff1ae1.js?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/bootstrap/tab-490d07d29dc0e77d3186d9d28a4fa23c.js?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/bootstrap/transition-cac5f2b77bec6224a4a4a3481c09ee8e.js?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-4919990290faa565bbe5091da425f131.js?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/bootstrap/modal-e916a401165ddff09f35f9672adfffd6.js?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-a4c08ba0beb0e13d09822d361a6ccc5c.js?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/bootstrap/popover-49dee8837c81461197c53bceab1aef84.js?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-06de2f833b2b570d645ca56d82e64b67.js?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/parsley-b019c1a563f900f24f42eec3d600c242.js?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/angular-dd9b868f194cd3c412cf05669f220b2e.js?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/angular-resource-2f42a539c64958820ae3087993bb2e37.js?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/angular/app-14ebf7d85cb521dabe9cb8036326ac2f.js?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/angular/search-856abfff2c3f6f69069c02fbeaddc64a.js?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/angular/users-27b6682a39fe1ea46bcc575f9ec0691d.js?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/sessions-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/angular/usersController-e986f9631ac9daafb09ad200f91b7352.js?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/users-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/userfriendships-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/assets/application-19dc9fae6f1f869ebbebbe92bcd6902a.js?body=1" for ::1 at 2015-03-08 18:52:02 -0700
+
+
+Started GET "/api/users" for ::1 at 2015-03-08 18:52:02 -0700
+Processing by UsersController#index as JSON
+  [1m[35mUser Load (2.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 97]]
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+Completed 200 OK in 18ms (Views: 10.7ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-03-08 18:52:14 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 97]]
+Completed 200 OK in 221ms (Views: 220.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-03-08 18:52:15 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 97]]
+Completed 200 OK in 260ms (Views: 259.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/sessions-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/userfriendships-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/users-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/parsley-7f39b5bafe42db534ec9c25ba2e11da0.css?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/jquery-9d751bd21c4864f65bfbd8f54a1de10c.js?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/jquery_ujs-b6180cd5656412d5eba8ffc0fdd2bf4a.js?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/rails_bootstrap_forms-d2756374a10193db9cbe3459155b84c5.css?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/bootstrap/alert-ff6f1369e2f4b2dad0dafbf1a7f632ab.js?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/bootstrap/carousel-5e55676f8f8dc98e7ac4e09626589778.js?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/bootstrap/collapse-ad179829e405acfe0bd89c400bb063d5.js?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/bootstrap/affix-3a78b42a7b9b5fe4a1aae5204a23cda7.js?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-3baa03586c841d494755a90819ff1ae1.js?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/bootstrap/button-e89c73302ae0d08bf85f31bf60c7748a.js?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/bootstrap/tab-490d07d29dc0e77d3186d9d28a4fa23c.js?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/bootstrap/transition-cac5f2b77bec6224a4a4a3481c09ee8e.js?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-4919990290faa565bbe5091da425f131.js?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/bootstrap/modal-e916a401165ddff09f35f9672adfffd6.js?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-a4c08ba0beb0e13d09822d361a6ccc5c.js?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/bootstrap/popover-49dee8837c81461197c53bceab1aef84.js?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-06de2f833b2b570d645ca56d82e64b67.js?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/parsley-b019c1a563f900f24f42eec3d600c242.js?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/angular-dd9b868f194cd3c412cf05669f220b2e.js?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/angular/users-27b6682a39fe1ea46bcc575f9ec0691d.js?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/angular-resource-2f42a539c64958820ae3087993bb2e37.js?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/angular/usersController-e986f9631ac9daafb09ad200f91b7352.js?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/angular/app-14ebf7d85cb521dabe9cb8036326ac2f.js?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/angular/search-856abfff2c3f6f69069c02fbeaddc64a.js?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/userfriendships-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/users-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/sessions-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/assets/application-19dc9fae6f1f869ebbebbe92bcd6902a.js?body=1" for ::1 at 2015-03-08 18:52:15 -0700
+
+
+Started GET "/sessions/new" for ::1 at 2015-03-08 18:54:00 -0700
+Processing by SessionsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 97]]
+  Rendered sessions/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 265ms (Views: 264.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/userfriendships-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/users-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/parsley-7f39b5bafe42db534ec9c25ba2e11da0.css?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/sessions-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/rails_bootstrap_forms-d2756374a10193db9cbe3459155b84c5.css?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/jquery-9d751bd21c4864f65bfbd8f54a1de10c.js?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/jquery_ujs-b6180cd5656412d5eba8ffc0fdd2bf4a.js?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/bootstrap/alert-ff6f1369e2f4b2dad0dafbf1a7f632ab.js?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/bootstrap/carousel-5e55676f8f8dc98e7ac4e09626589778.js?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/bootstrap/collapse-ad179829e405acfe0bd89c400bb063d5.js?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/bootstrap/tab-490d07d29dc0e77d3186d9d28a4fa23c.js?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-3baa03586c841d494755a90819ff1ae1.js?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/bootstrap/button-e89c73302ae0d08bf85f31bf60c7748a.js?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/bootstrap/transition-cac5f2b77bec6224a4a4a3481c09ee8e.js?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/bootstrap/affix-3a78b42a7b9b5fe4a1aae5204a23cda7.js?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-4919990290faa565bbe5091da425f131.js?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/bootstrap/modal-e916a401165ddff09f35f9672adfffd6.js?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-a4c08ba0beb0e13d09822d361a6ccc5c.js?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/bootstrap/popover-49dee8837c81461197c53bceab1aef84.js?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-06de2f833b2b570d645ca56d82e64b67.js?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/parsley-b019c1a563f900f24f42eec3d600c242.js?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/angular-resource-2f42a539c64958820ae3087993bb2e37.js?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/angular-dd9b868f194cd3c412cf05669f220b2e.js?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/angular/app-14ebf7d85cb521dabe9cb8036326ac2f.js?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/angular/search-856abfff2c3f6f69069c02fbeaddc64a.js?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/angular/users-27b6682a39fe1ea46bcc575f9ec0691d.js?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/angular/usersController-e986f9631ac9daafb09ad200f91b7352.js?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/sessions-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/users-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/userfriendships-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/assets/application-19dc9fae6f1f869ebbebbe92bcd6902a.js?body=1" for ::1 at 2015-03-08 18:54:00 -0700
+
+
+Started GET "/sessions/new" for ::1 at 2015-03-08 18:54:08 -0700
+Processing by SessionsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 97]]
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 247ms (Views: 246.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/userfriendships-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/users-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/sessions-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/parsley-7f39b5bafe42db534ec9c25ba2e11da0.css?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/jquery-9d751bd21c4864f65bfbd8f54a1de10c.js?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/rails_bootstrap_forms-d2756374a10193db9cbe3459155b84c5.css?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/jquery_ujs-b6180cd5656412d5eba8ffc0fdd2bf4a.js?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/bootstrap/affix-3a78b42a7b9b5fe4a1aae5204a23cda7.js?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/bootstrap/alert-ff6f1369e2f4b2dad0dafbf1a7f632ab.js?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/bootstrap/button-e89c73302ae0d08bf85f31bf60c7748a.js?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/bootstrap/carousel-5e55676f8f8dc98e7ac4e09626589778.js?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/bootstrap/collapse-ad179829e405acfe0bd89c400bb063d5.js?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-3baa03586c841d494755a90819ff1ae1.js?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/bootstrap/tab-490d07d29dc0e77d3186d9d28a4fa23c.js?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/bootstrap/transition-cac5f2b77bec6224a4a4a3481c09ee8e.js?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/bootstrap/modal-e916a401165ddff09f35f9672adfffd6.js?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-a4c08ba0beb0e13d09822d361a6ccc5c.js?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-4919990290faa565bbe5091da425f131.js?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/bootstrap/popover-49dee8837c81461197c53bceab1aef84.js?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-06de2f833b2b570d645ca56d82e64b67.js?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/parsley-b019c1a563f900f24f42eec3d600c242.js?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/angular-dd9b868f194cd3c412cf05669f220b2e.js?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/angular-resource-2f42a539c64958820ae3087993bb2e37.js?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/angular/app-14ebf7d85cb521dabe9cb8036326ac2f.js?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/angular/search-856abfff2c3f6f69069c02fbeaddc64a.js?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/angular/users-27b6682a39fe1ea46bcc575f9ec0691d.js?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/angular/usersController-e986f9631ac9daafb09ad200f91b7352.js?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/sessions-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/userfriendships-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/users-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/assets/application-19dc9fae6f1f869ebbebbe92bcd6902a.js?body=1" for ::1 at 2015-03-08 18:54:09 -0700
+
+
+Started GET "/sessions/new" for ::1 at 2015-03-08 18:54:27 -0700
+Processing by SessionsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 97]]
+  Rendered sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 251ms (Views: 250.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/sessions-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/userfriendships-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/rails_bootstrap_forms-d2756374a10193db9cbe3459155b84c5.css?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/parsley-7f39b5bafe42db534ec9c25ba2e11da0.css?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/users-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/jquery-9d751bd21c4864f65bfbd8f54a1de10c.js?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/jquery_ujs-b6180cd5656412d5eba8ffc0fdd2bf4a.js?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/bootstrap/affix-3a78b42a7b9b5fe4a1aae5204a23cda7.js?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/bootstrap/alert-ff6f1369e2f4b2dad0dafbf1a7f632ab.js?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/bootstrap/button-e89c73302ae0d08bf85f31bf60c7748a.js?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/bootstrap/carousel-5e55676f8f8dc98e7ac4e09626589778.js?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/bootstrap/collapse-ad179829e405acfe0bd89c400bb063d5.js?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-3baa03586c841d494755a90819ff1ae1.js?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/bootstrap/tab-490d07d29dc0e77d3186d9d28a4fa23c.js?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/bootstrap/transition-cac5f2b77bec6224a4a4a3481c09ee8e.js?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-4919990290faa565bbe5091da425f131.js?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/bootstrap/modal-e916a401165ddff09f35f9672adfffd6.js?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-a4c08ba0beb0e13d09822d361a6ccc5c.js?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/bootstrap/popover-49dee8837c81461197c53bceab1aef84.js?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-06de2f833b2b570d645ca56d82e64b67.js?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/parsley-b019c1a563f900f24f42eec3d600c242.js?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/angular-dd9b868f194cd3c412cf05669f220b2e.js?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/angular-resource-2f42a539c64958820ae3087993bb2e37.js?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/angular/app-14ebf7d85cb521dabe9cb8036326ac2f.js?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/angular/users-27b6682a39fe1ea46bcc575f9ec0691d.js?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/angular/search-856abfff2c3f6f69069c02fbeaddc64a.js?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/sessions-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/angular/usersController-e986f9631ac9daafb09ad200f91b7352.js?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/userfriendships-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/users-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/assets/application-19dc9fae6f1f869ebbebbe92bcd6902a.js?body=1" for ::1 at 2015-03-08 18:54:27 -0700
+
+
+Started GET "/sessions/new" for ::1 at 2015-03-08 18:54:32 -0700
+Processing by SessionsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 97]]
+  Rendered sessions/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 260ms (Views: 259.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/sessions-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/userfriendships-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/rails_bootstrap_forms-d2756374a10193db9cbe3459155b84c5.css?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/users-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/parsley-7f39b5bafe42db534ec9c25ba2e11da0.css?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/jquery-9d751bd21c4864f65bfbd8f54a1de10c.js?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/jquery_ujs-b6180cd5656412d5eba8ffc0fdd2bf4a.js?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/bootstrap/affix-3a78b42a7b9b5fe4a1aae5204a23cda7.js?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/bootstrap/alert-ff6f1369e2f4b2dad0dafbf1a7f632ab.js?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/bootstrap/button-e89c73302ae0d08bf85f31bf60c7748a.js?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/bootstrap/carousel-5e55676f8f8dc98e7ac4e09626589778.js?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/bootstrap/collapse-ad179829e405acfe0bd89c400bb063d5.js?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-3baa03586c841d494755a90819ff1ae1.js?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/bootstrap/tab-490d07d29dc0e77d3186d9d28a4fa23c.js?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/bootstrap/transition-cac5f2b77bec6224a4a4a3481c09ee8e.js?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-4919990290faa565bbe5091da425f131.js?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/bootstrap/modal-e916a401165ddff09f35f9672adfffd6.js?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-a4c08ba0beb0e13d09822d361a6ccc5c.js?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/bootstrap/popover-49dee8837c81461197c53bceab1aef84.js?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-06de2f833b2b570d645ca56d82e64b67.js?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/parsley-b019c1a563f900f24f42eec3d600c242.js?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/angular-dd9b868f194cd3c412cf05669f220b2e.js?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/angular-resource-2f42a539c64958820ae3087993bb2e37.js?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/angular/app-14ebf7d85cb521dabe9cb8036326ac2f.js?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/angular/search-856abfff2c3f6f69069c02fbeaddc64a.js?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/angular/users-27b6682a39fe1ea46bcc575f9ec0691d.js?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/angular/usersController-e986f9631ac9daafb09ad200f91b7352.js?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/sessions-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/userfriendships-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/users-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/assets/application-19dc9fae6f1f869ebbebbe92bcd6902a.js?body=1" for ::1 at 2015-03-08 18:54:32 -0700
+
+
+Started GET "/sessions/new" for ::1 at 2015-03-08 18:54:35 -0700
+Processing by SessionsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 97]]
+  Rendered sessions/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 260ms (Views: 260.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/sessions-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/users-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/rails_bootstrap_forms-d2756374a10193db9cbe3459155b84c5.css?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/userfriendships-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/parsley-7f39b5bafe42db534ec9c25ba2e11da0.css?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/jquery-9d751bd21c4864f65bfbd8f54a1de10c.js?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/jquery_ujs-b6180cd5656412d5eba8ffc0fdd2bf4a.js?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/bootstrap/affix-3a78b42a7b9b5fe4a1aae5204a23cda7.js?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/bootstrap/alert-ff6f1369e2f4b2dad0dafbf1a7f632ab.js?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/bootstrap/button-e89c73302ae0d08bf85f31bf60c7748a.js?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/bootstrap/carousel-5e55676f8f8dc98e7ac4e09626589778.js?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/bootstrap/collapse-ad179829e405acfe0bd89c400bb063d5.js?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-3baa03586c841d494755a90819ff1ae1.js?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/bootstrap/tab-490d07d29dc0e77d3186d9d28a4fa23c.js?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/bootstrap/transition-cac5f2b77bec6224a4a4a3481c09ee8e.js?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-4919990290faa565bbe5091da425f131.js?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/bootstrap/modal-e916a401165ddff09f35f9672adfffd6.js?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-a4c08ba0beb0e13d09822d361a6ccc5c.js?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-06de2f833b2b570d645ca56d82e64b67.js?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/bootstrap/popover-49dee8837c81461197c53bceab1aef84.js?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/parsley-b019c1a563f900f24f42eec3d600c242.js?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/angular-dd9b868f194cd3c412cf05669f220b2e.js?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/angular-resource-2f42a539c64958820ae3087993bb2e37.js?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/angular/app-14ebf7d85cb521dabe9cb8036326ac2f.js?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/angular/search-856abfff2c3f6f69069c02fbeaddc64a.js?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/angular/users-27b6682a39fe1ea46bcc575f9ec0691d.js?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/angular/usersController-e986f9631ac9daafb09ad200f91b7352.js?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/sessions-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/userfriendships-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/users-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/assets/application-19dc9fae6f1f869ebbebbe92bcd6902a.js?body=1" for ::1 at 2015-03-08 18:54:36 -0700
+
+
+Started GET "/users/new" for ::1 at 2015-03-08 18:54:40 -0700
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (4.9ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 97]]
+Completed 200 OK in 258ms (Views: 256.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/userfriendships-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:54:40 -0700
+
+
+Started GET "/assets/parsley-7f39b5bafe42db534ec9c25ba2e11da0.css?body=1" for ::1 at 2015-03-08 18:54:40 -0700
+
+
+Started GET "/assets/jquery-9d751bd21c4864f65bfbd8f54a1de10c.js?body=1" for ::1 at 2015-03-08 18:54:40 -0700
+
+
+Started GET "/assets/users-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:54:40 -0700
+
+
+Started GET "/assets/rails_bootstrap_forms-d2756374a10193db9cbe3459155b84c5.css?body=1" for ::1 at 2015-03-08 18:54:40 -0700
+
+
+Started GET "/assets/sessions-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:54:40 -0700
+
+
+Started GET "/assets/jquery_ujs-b6180cd5656412d5eba8ffc0fdd2bf4a.js?body=1" for ::1 at 2015-03-08 18:54:40 -0700
+
+
+Started GET "/assets/bootstrap/affix-3a78b42a7b9b5fe4a1aae5204a23cda7.js?body=1" for ::1 at 2015-03-08 18:54:40 -0700
+
+
+Started GET "/assets/bootstrap/alert-ff6f1369e2f4b2dad0dafbf1a7f632ab.js?body=1" for ::1 at 2015-03-08 18:54:40 -0700
+
+
+Started GET "/assets/bootstrap/button-e89c73302ae0d08bf85f31bf60c7748a.js?body=1" for ::1 at 2015-03-08 18:54:40 -0700
+
+
+Started GET "/assets/bootstrap/carousel-5e55676f8f8dc98e7ac4e09626589778.js?body=1" for ::1 at 2015-03-08 18:54:40 -0700
+
+
+Started GET "/assets/bootstrap/collapse-ad179829e405acfe0bd89c400bb063d5.js?body=1" for ::1 at 2015-03-08 18:54:40 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-3baa03586c841d494755a90819ff1ae1.js?body=1" for ::1 at 2015-03-08 18:54:40 -0700
+
+
+Started GET "/assets/bootstrap/tab-490d07d29dc0e77d3186d9d28a4fa23c.js?body=1" for ::1 at 2015-03-08 18:54:40 -0700
+
+
+Started GET "/assets/bootstrap/transition-cac5f2b77bec6224a4a4a3481c09ee8e.js?body=1" for ::1 at 2015-03-08 18:54:40 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-4919990290faa565bbe5091da425f131.js?body=1" for ::1 at 2015-03-08 18:54:40 -0700
+
+
+Started GET "/assets/bootstrap/modal-e916a401165ddff09f35f9672adfffd6.js?body=1" for ::1 at 2015-03-08 18:54:40 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-a4c08ba0beb0e13d09822d361a6ccc5c.js?body=1" for ::1 at 2015-03-08 18:54:40 -0700
+
+
+Started GET "/assets/bootstrap/popover-49dee8837c81461197c53bceab1aef84.js?body=1" for ::1 at 2015-03-08 18:54:40 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-06de2f833b2b570d645ca56d82e64b67.js?body=1" for ::1 at 2015-03-08 18:54:40 -0700
+
+
+Started GET "/assets/parsley-b019c1a563f900f24f42eec3d600c242.js?body=1" for ::1 at 2015-03-08 18:54:40 -0700
+
+
+Started GET "/assets/angular-dd9b868f194cd3c412cf05669f220b2e.js?body=1" for ::1 at 2015-03-08 18:54:40 -0700
+
+
+Started GET "/assets/angular-resource-2f42a539c64958820ae3087993bb2e37.js?body=1" for ::1 at 2015-03-08 18:54:40 -0700
+
+
+Started GET "/assets/angular/search-856abfff2c3f6f69069c02fbeaddc64a.js?body=1" for ::1 at 2015-03-08 18:54:40 -0700
+
+
+Started GET "/assets/angular/app-14ebf7d85cb521dabe9cb8036326ac2f.js?body=1" for ::1 at 2015-03-08 18:54:41 -0700
+
+
+Started GET "/assets/angular/users-27b6682a39fe1ea46bcc575f9ec0691d.js?body=1" for ::1 at 2015-03-08 18:54:41 -0700
+
+
+Started GET "/assets/angular/usersController-e986f9631ac9daafb09ad200f91b7352.js?body=1" for ::1 at 2015-03-08 18:54:41 -0700
+
+
+Started GET "/assets/sessions-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:54:41 -0700
+
+
+Started GET "/assets/userfriendships-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:54:41 -0700
+
+
+Started GET "/assets/users-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:54:41 -0700
+
+
+Started GET "/assets/application-19dc9fae6f1f869ebbebbe92bcd6902a.js?body=1" for ::1 at 2015-03-08 18:54:41 -0700
+
+
+Started POST "/users" for ::1 at 2015-03-08 18:55:40 -0700
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2jzQpgt+sgjUu3Cr6JuXG2VJrg/NL8vrDRk5Q2zkOFgCN2/DwbrQP1hkuiWTj87m2opJ85ZBbsSivlSI4a5xSA==", "user"=>{"name"=>"tupac", "email"=>"tupac@deathrow.com", "age"=>"21", "location"=>"compton", "avatar"=>#<ActionDispatch::Http::UploadedFile:0x007fc243ca7120 @tempfile=#<Tempfile:/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/RackMultipart20150308-3633-oxab7l.jpg>, @original_filename="iphone 6 plus.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"user[avatar]\"; filename=\"iphone 6 plus.jpg\"\r\nContent-Type: image/jpeg\r\n">, "password"=>"[FILTERED]", "created_at"=>""}, "commit"=>"Create User"}
+Unpermitted parameter: created_at
+Command :: file -b --mime '/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/ca112fa457301aba6fc72735c899e83520150308-3633-46n07f.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/d73689e5b420880c3e976c6af630d23120150308-3633-13bnmlz.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/d73689e5b420880c3e976c6af630d23120150308-3633-13bnmlz.jpg[0]'
+Command :: convert '/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/d73689e5b420880c3e976c6af630d23120150308-3633-13bnmlz.jpg[0]' -auto-orient -resize "100x100>" '/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/d73689e5b420880c3e976c6af630d23120150308-3633-13bnmlz20150308-3633-1tcqwux'
+Command :: file -b --mime '/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/d73689e5b420880c3e976c6af630d23120150308-3633-13bnmlz20150308-3633-1tcqwux'
+  [1m[35m (0.5ms)[0m  BEGIN
+Command :: file -b --mime '/var/folders/1b/51l9yk7s2l55jnndgv85hrmm0000gn/T/ca112fa457301aba6fc72735c899e83520150308-3633-11nyjtl.jpg'
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("name", "email", "age", "location", "avatar_file_name", "avatar_content_type", "avatar_file_size", "avatar_updated_at", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["name", "tupac"], ["email", "tupac@deathrow.com"], ["age", 21], ["location", "compton"], ["avatar_file_name", "iphone_6_plus.jpg"], ["avatar_content_type", "image/jpeg"], ["avatar_file_size", 24148], ["avatar_updated_at", "2015-03-08 18:55:40.056894"], ["password_digest", "$2a$10$CR8/o8VoQzDV6z2I/rdhyOfB6XvFcfKnR6aAw.MPUa8jkOGO4rPTq"], ["created_at", "2015-03-08 18:55:40.288983"], ["updated_at", "2015-03-08 18:55:40.288983"]]
+  [1m[35m (6.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 264ms (ActiveRecord: 7.1ms)
+
+
+Started GET "/sessions/new" for ::1 at 2015-03-08 18:55:40 -0700
+Processing by SessionsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 97]]
+  Rendered sessions/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 267ms (Views: 266.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/sessions-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/rails_bootstrap_forms-d2756374a10193db9cbe3459155b84c5.css?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/parsley-7f39b5bafe42db534ec9c25ba2e11da0.css?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/users-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/userfriendships-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/jquery_ujs-b6180cd5656412d5eba8ffc0fdd2bf4a.js?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/jquery-9d751bd21c4864f65bfbd8f54a1de10c.js?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/bootstrap/affix-3a78b42a7b9b5fe4a1aae5204a23cda7.js?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/bootstrap/alert-ff6f1369e2f4b2dad0dafbf1a7f632ab.js?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/bootstrap/button-e89c73302ae0d08bf85f31bf60c7748a.js?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/bootstrap/carousel-5e55676f8f8dc98e7ac4e09626589778.js?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/bootstrap/collapse-ad179829e405acfe0bd89c400bb063d5.js?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-4919990290faa565bbe5091da425f131.js?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/bootstrap/tab-490d07d29dc0e77d3186d9d28a4fa23c.js?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/bootstrap/transition-cac5f2b77bec6224a4a4a3481c09ee8e.js?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-3baa03586c841d494755a90819ff1ae1.js?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-a4c08ba0beb0e13d09822d361a6ccc5c.js?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/bootstrap/popover-49dee8837c81461197c53bceab1aef84.js?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-06de2f833b2b570d645ca56d82e64b67.js?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/parsley-b019c1a563f900f24f42eec3d600c242.js?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/bootstrap/modal-e916a401165ddff09f35f9672adfffd6.js?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/angular-dd9b868f194cd3c412cf05669f220b2e.js?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/angular-resource-2f42a539c64958820ae3087993bb2e37.js?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/angular/search-856abfff2c3f6f69069c02fbeaddc64a.js?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/angular/app-14ebf7d85cb521dabe9cb8036326ac2f.js?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/angular/users-27b6682a39fe1ea46bcc575f9ec0691d.js?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/angular/usersController-e986f9631ac9daafb09ad200f91b7352.js?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/sessions-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/userfriendships-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/users-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/assets/application-19dc9fae6f1f869ebbebbe92bcd6902a.js?body=1" for ::1 at 2015-03-08 18:55:40 -0700
+
+
+Started GET "/users" for ::1 at 2015-03-08 18:55:42 -0700
+Processing by UsersController#index as HTML
+  Rendered users/index.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 97]]
+Completed 200 OK in 240ms (Views: 239.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/sessions-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/userfriendships-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/users-e986f9631ac9daafb09ad200f91b7352.css?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/parsley-7f39b5bafe42db534ec9c25ba2e11da0.css?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/rails_bootstrap_forms-d2756374a10193db9cbe3459155b84c5.css?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/jquery-9d751bd21c4864f65bfbd8f54a1de10c.js?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/jquery_ujs-b6180cd5656412d5eba8ffc0fdd2bf4a.js?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/bootstrap/affix-3a78b42a7b9b5fe4a1aae5204a23cda7.js?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/bootstrap/alert-ff6f1369e2f4b2dad0dafbf1a7f632ab.js?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/bootstrap/button-e89c73302ae0d08bf85f31bf60c7748a.js?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/bootstrap/carousel-5e55676f8f8dc98e7ac4e09626589778.js?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/bootstrap/collapse-ad179829e405acfe0bd89c400bb063d5.js?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/bootstrap/tab-490d07d29dc0e77d3186d9d28a4fa23c.js?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/bootstrap/dropdown-3baa03586c841d494755a90819ff1ae1.js?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/bootstrap/transition-cac5f2b77bec6224a4a4a3481c09ee8e.js?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy-4919990290faa565bbe5091da425f131.js?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/bootstrap/modal-e916a401165ddff09f35f9672adfffd6.js?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/bootstrap/tooltip-a4c08ba0beb0e13d09822d361a6ccc5c.js?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/bootstrap/popover-49dee8837c81461197c53bceab1aef84.js?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/bootstrap-sprockets-06de2f833b2b570d645ca56d82e64b67.js?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/parsley-b019c1a563f900f24f42eec3d600c242.js?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/angular-dd9b868f194cd3c412cf05669f220b2e.js?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/angular-resource-2f42a539c64958820ae3087993bb2e37.js?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/angular/app-14ebf7d85cb521dabe9cb8036326ac2f.js?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/angular/search-856abfff2c3f6f69069c02fbeaddc64a.js?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/angular/users-27b6682a39fe1ea46bcc575f9ec0691d.js?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/angular/usersController-e986f9631ac9daafb09ad200f91b7352.js?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/sessions-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/userfriendships-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/users-6c18af08ae3fb4da41659d8a3910a101.js?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/assets/application-19dc9fae6f1f869ebbebbe92bcd6902a.js?body=1" for ::1 at 2015-03-08 18:55:43 -0700
+
+
+Started GET "/api/users" for ::1 at 2015-03-08 18:55:43 -0700
+Processing by UsersController#index as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 97]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+Completed 200 OK in 22ms (Views: 16.4ms | ActiveRecord: 0.5ms)
