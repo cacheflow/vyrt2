@@ -36,11 +36,8 @@
         </li>
         <% end %>
         <% if !current_user %>
-          <li><%= link_to "Sign In", new_session_path %></li>
-          <li><%= link_to "Sign Up", new_user_path %></li>
-        <% else %>
-          <li><%= link_to "Log Out", new_session_path, :method => :delete %></li>
-        <% end %>
+           <li><%= link_to "Sign Up", new_user_path %></li>
+        <% end %> 
       </ul>
     </div>
   </div>
